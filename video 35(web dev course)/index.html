@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More css Selectors</title>
+</head>
+
+<style>
+
+.box1:first-child{
+    background-color: red;
+
+}
+   
+.box1::first-line{
+    color: yellow;
+    
+}
+
+.boxes::before{
+    content: i am goood;
+}
+
+    .box::selection{
+        color: blue;
+        background: #000;
+
+    }
+    .box::first-letter{
+        color: aqua;
+        font-size: 50px;
+
+    }
+
+
+    input::placeholder{
+        color: black;
+        font-size: 14px;
+        padding: 30px;
+        background:yellow;
+        border: 3px solid black;
+        border-radius: 40px;
+        
+    }
+
+    P{
+        padding: 40px;
+        font-size: 20px;
+    }
+
+
+
+</style>
+
+
+<body>
+    <div class="boxes">harshad is good
+        <div class="box1">box 1</div>
+        <div class="box">box 2</div>
+        <div class="box">box 3</div>
+        <div class="box">box 4</div>
+        
+
+       <section> <input placeholder="i am  goat"> click </section>
+    </div>
+
+
+
+    <p> Note: today i learn css selectors.</p>
+</body>
+</html>
