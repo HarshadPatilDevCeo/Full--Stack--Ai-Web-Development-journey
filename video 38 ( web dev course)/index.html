@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css flexbox</title>
+</head>
+<style>
+.container{
+    display: flex;
+    flex-grow: 40px;
+    justify-content: center;
+    align-items:space-between;
+    flex-direction:row-reverse;
+    flex-wrap: nowrap;
+    align-content: center;
+    gap: 10px;
+    column-gap: 30px;
+    flex-shrink: initial;
+    
+}
+.item1{
+
+  border: 2px solid black;
+  flex-grow: 2px sloid green;
+  align-self: center;
+    
+}
+</style>
+
+
+
+<body>
+    <div class="container">
+        <div class="item1">item1</div>
+        <div class="item2">item2</div>
+        <div class="item3">item3</div>
+        <div class="item4">item4</div>
+        <div class="item5">item5</div>
+        <div class="item6">item6</div>
+        <div class="item7">item7</div>
+        <div class="item8">item8</div>
+    </div>
+    
+    <p>Note:today i learn css flexbox (align-items properties,flex-directions,align items,gap,item properties)</p>
+</body>
+</html>
