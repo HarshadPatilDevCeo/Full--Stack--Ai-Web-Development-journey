@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition properties</title>
+</head>
+
+<style>
+    .container{
+        background-color: aqua;
+        color: brown;
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+        transition-duration: 2s;
+    }
+
+    .box{
+        transition: all 3s ease-in-out 1s;
+    }
+
+    .tarnslate{
+        transform: translateX(10vh); translate Y(10vh);
+        scale(2); background:blue;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="box">.</div>
+    </div>
+    
+</body>
+</html>
